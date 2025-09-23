@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>끝말잇기</title>
+
+    <link rel="stylesheet" href="css/word-relay_02.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="two-col">
+        <div class="left">
+          <div class="row"><span id="order">1</span>번째 참가자: <span id="current"></span></div>
+          <div class="row">제시어: <span id="word"></span></div>
+          <div class="input-row">
+            <input type="text">
+            <button>입력</button>
+          </div>
+          <div id="status">게임 준비 중...</div>
+          <h4 style="margin:16px 0 8px">참가자</h4>
+          <ul id="players"></ul>
+        </div>
+        <div class="right">
+          <h4 style="margin:0 0 8px">입력 기록</h4>
+          <ul id="history"></ul>
+        </div>
+      </div>
+    </div>
+    
+    <script src="js/word-relay_02.js"></script>
+  </body>
+</html>
